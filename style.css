@@ -28,7 +28,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: url("img/gambar4.jpg") no-repeat center center/cover;
+  background: url("img/P1490584[1].jpg") no-repeat center center/cover;
   color: #fff;
   z-index: 9999;
   transition: transform 0.5s ease-in-out;
@@ -121,7 +121,7 @@ body {
 /* ========================================================================================================== */
 .navbar {
   font-weight: 600;
-  background-color: rgba(10, 94, 80, 0.884);
+  background-color: rgba(15, 26, 52, 0.926);
   backdrop-filter: blur(10px);
 }
 
@@ -132,15 +132,15 @@ body {
 
 .navbar .nav-link:hover,
 .navbar .nav-link.active {
-  color: #ffbb00;
+  color: #20b2ec;
 }
 
 .navbar-brand {
-  color: #ffbb00;
+  color: #ffffff;
 }
 
 .navbar-brand:focus {
-  color: #ffbb00;
+  color: #00b7ff;
 }
 
 .navbar-brand:hover {
@@ -176,7 +176,7 @@ body {
 /* ========================================================================================================== */
 .jumbotron {
   padding-top: 120px;
-  background: #e8eae1;
+  background: #b7bbc14b;
 }
 
 .jumbotron .container {
@@ -223,7 +223,7 @@ body {
 }
 
 .btn-contact {
-  background-color: #ffbb00;
+  background-color: #18184b;
   color: black;
   padding: 10px 20px;
 }
@@ -234,15 +234,16 @@ body {
 
 .btn-contact:hover {
   color: white;
-  background-color: rgba(10, 94, 80, 1);
+  background-color: #07073c;
 }
 
 .btn-contact:hover i {
   animation: ring 6s infinite;
+  -webkit-animation: ring 6s infinite;
 }
 
 .btn-email {
-  background-color: rgba(10, 94, 80, 1);
+  background-color: #18184b;
   color: white;
   padding: 10px 20px;
 }
@@ -253,7 +254,7 @@ body {
 
 .btn-email:hover {
   color: #f1f1f1;
-  background-color: rgba(10, 94, 80, 1);
+  background-color: #07073c;
 }
 
 @keyframes ring {
@@ -335,12 +336,12 @@ body {
 
 .social-icons a {
   margin: 5px;
-  color: rgba(10, 94, 80, 0.884);
+  color: #18184b;
   font-size: 30px;
 }
 
 .social-icons a:hover {
-  color: rgba(10, 94, 80, 1);
+  color: #07073c;
   transform: scale(1.1);
   transition: all 0.3s ease-in-out;
 }
@@ -354,7 +355,7 @@ body {
   display: inline-flex;
   background-color: transparent;
   align-items: center;
-  color: rgba(10, 94, 80, 1);
+  color: #18184b;
   font-size: 15px;
   padding: 5px 5px;
   transition: transform 0.3s ease; /* Atur durasi dan transisi */
@@ -566,12 +567,7 @@ section {
 }
 
 .heading span {
-  color: #ffbb00;
-}
-
-.alamat {
-  text-decoration: none;
-  color: rgba(10, 94, 80, 1);
+  color: #20b1eb;
 }
 
 .subheading {
@@ -596,7 +592,7 @@ section {
 .about-img img {
   width: 70%;
   border-radius: 50%;
-  border: 0.2rem solid rgba(10, 94, 80, 0.884);
+  border: 0.2rem solid #18184b;
 }
 
 .about-img .circle-spin {
@@ -609,8 +605,8 @@ section {
   border-radius: 50%;
   border-top: 0.2rem solid transparent;
   border-bottom: 0.2rem solid transparent;
-  border-left: 0.2rem solid rgba(10, 94, 80, 0.884);
-  border-right: 0.2rem solid rgba(10, 94, 80, 0.884);
+  border-left: 0.2rem solid #18184b;
+  border-right: 0.2rem solid #18184b;
   animation: spin 4s linear infinite;
 }
 
@@ -655,7 +651,7 @@ section {
   display: inline-block;
   padding: 10px 20px;
   color: #fff;
-  background-color: #007bff;
+  background-color: #18184b;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
@@ -666,7 +662,7 @@ section {
 }
 
 .btna:hover {
-  background-color: #ffbb00;
+  background-color: #18184b;
   color: #fff;
 }
 
@@ -676,7 +672,7 @@ section {
   position: absolute;
   width: 200%;
   height: 200%;
-  background-color: rgba(208, 255, 0, 0.2);
+  background-color: #18184b;
   transition: all 0.3s ease;
   z-index: -1;
 }
@@ -704,7 +700,7 @@ section {
 }
 
 .btn-box a:nth-child(1):hover {
-  background-color: rgba(10, 94, 80, 1);
+  background-color: rgb(32, 177, 235);
 }
 
 .modalby {
@@ -775,7 +771,7 @@ section {
 .hobby-list li i {
   margin-right: 10px;
   font-size: 1.5rem;
-  color: rgba(10, 94, 80, 1);
+  color: #18184b;
 }
 
 /* ================================================ Education ===============================================*/
@@ -796,7 +792,7 @@ section {
 .custom-hr {
   border: none;
   height: 7px;
-  background: #ffbb00; /* Ubah warna sesuai keinginan */
+  background: #20b1eb; /* Ubah warna sesuai keinginan */
   opacity: 1; /* Pastikan opacity diatur ke 1 untuk warna yang padat */
   margin: 55px;
   margin-bottom: -50px;
@@ -853,7 +849,7 @@ section {
 
 .text-box {
   padding: 20px 30px;
-  background: rgba(10, 94, 80, 1);
+  background: #07073c;
   color: white;
   position: relative;
   border-radius: 6px;
@@ -886,7 +882,7 @@ section {
   position: absolute;
   width: 6px;
   height: 100%;
-  background: #ffbb00;
+  background: #20b1eb;
   top: 0;
   left: 50%;
   margin-left: -3px;
@@ -920,7 +916,7 @@ section {
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 15px solid rgba(10, 94, 80, 1);
+  border-left: 15px solid #07073c;
   right: -15px;
 }
 
@@ -932,7 +928,7 @@ section {
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-right: 15px solid rgba(10, 94, 80, 1);
+  border-right: 15px solid #07073c;
   left: -15px;
 }
 
@@ -969,7 +965,7 @@ section {
 
   .left-container-arrow,
   .right-container-arrow {
-    border-right: 15px solid rgba(10, 94, 80, 1);
+    border-right: 15px solid #07073c;
     border-left: 0;
     left: -15px;
   }
@@ -1028,7 +1024,7 @@ section {
 
   .left-container-arrow,
   .right-container-arrow {
-    border-right: 10px solid rgba(10, 94, 80, 1); /* Menyesuaikan lebar panah */
+    border-right: 10px solid #07073c; /* Menyesuaikan lebar panah */
     border-left: 0;
     left: -10px; /* Mengurangi jarak panah dari garis */
   }
@@ -1062,13 +1058,13 @@ input {
 .containe {
   width: 100%;
   text-align: center;
-  background-color: #e8eae1;
+  background-color: #eaebed;
   padding: 50px;
   margin-top: -15px;
 }
 
 .containe span {
-  color: #ffbb00;
+  color: #20b1eb;
 }
 
 .containe h1 {
@@ -1076,11 +1072,11 @@ input {
   font-weight: 750;
   position: relative;
   margin: 30px 0;
-  margin-top: -20px;
+  margin-top: 10px;
 }
 
 .top-content {
-  background-color: rgba(10, 94, 80, 1);
+  background-color: #07073c;
   width: 90%;
   margin: 0 auto 20px auto;
   height: 60px;
@@ -1093,7 +1089,7 @@ input {
 
 .containe h4 {
   height: 100%;
-  background-color: #ffbb00;
+  background-color: #20b1eb;
   line-height: 60px;
   border-radius: 5px;
   padding: 0 50px;
@@ -1126,7 +1122,7 @@ label {
 }
 
 label:hover {
-  color: #ffbb00;
+  color: #20b1eb;
 }
 
 /* Galeri Foto Style */
@@ -1259,7 +1255,7 @@ label:hover {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: rgba(10, 94, 80, 0.678);
+    background-color: #07073c;
     backdrop-filter: blur(12px);
     z-index: 10;
   }
@@ -1329,24 +1325,14 @@ label:hover {
   background-size: cover; /* Memastikan gambar menutupi seluruh area */
   background-attachment: fixed; /* Gambar tetap saat scroll */
   background-position: center; /* Menjaga gambar tetap di tengah */
-  background-color: rgba(
-    10,
-    94,
-    80,
-    0.884
-  ); /* Warna hijau dengan transparansi */
+  background-color: rgba(7, 7, 60, 0.884); /* Warna hijau dengan transparansi */
   color: white;
 }
 
 #projects .container {
   margin-top: -80px;
   padding: 40px 20px;
-  background-color: rgba(
-    10,
-    94,
-    80,
-    0.7
-  ); /* Overlay hijau dengan transparansi */
+  background-color: rgba(7, 7, 60, 0.7); /* Overlay hijau dengan transparansi */
 }
 
 #projects h2 {
@@ -1365,7 +1351,7 @@ label:hover {
 
 .filter-btn {
   padding: 10px 20px;
-  background-color: #ffbb00;
+  background-color: #20b1eb;
   border: none;
   color: #000;
   cursor: pointer;
@@ -1374,7 +1360,7 @@ label:hover {
 }
 
 .filter-btn:hover {
-  background-color: #e0a700;
+  background-color: #20b1eb;
 }
 
 .card-container {
@@ -1422,11 +1408,11 @@ label:hover {
 .card-content .btn {
   display: inline-block;
   padding: 8px 16px;
-  background-color: #ffbb00;
+  background-color: #20b1eb;
   text-decoration: none;
   border-radius: 4px;
   margin-top: 16px;
-  color: #000000;
+  color: #ffffff;
   transition: all 0.3s ease;
 }
 
@@ -1496,7 +1482,7 @@ label:hover {
 
 .slick-dots li.slick-active button:before {
   opacity: 0.75;
-  color: #ffbb00;
+  color: #20b1eb;
 }
 
 /* ================================================== FOOTER ===================================================== */
@@ -1505,7 +1491,7 @@ footer {
   margin-bottom: -40px;
   left: 0;
   right: 0;
-  background-color: rgba(10, 94, 80, 0.884);
+  background-color: rgb(7, 7, 60);
   width: 100vw;
   color: white;
 }
@@ -1554,7 +1540,7 @@ footer {
 }
 
 .menuk a:hover {
-  color: #e0a700;
+  color: #20b1eb;
 }
 
 .menuk span.motivation {
@@ -1568,7 +1554,7 @@ footer {
   content: "";
   display: block;
   height: 2px;
-  background: #e0a700;
+  background: #20b1eb;
   width: 0;
   transition: width 0.4s ease;
   position: absolute;
@@ -1614,7 +1600,7 @@ footer {
 }
 
 .footer-bottom {
-  background: rgba(10, 94, 80, 0.884);
+  background: rgba(7, 7, 60, 0.884);
   text-align: center;
 }
 
@@ -1683,8 +1669,12 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ffbb00;
-  border-radius: 5px;
+  background: #07073c;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
 }
 
 /* Style untuk tombol grid controls */
@@ -1695,16 +1685,16 @@ footer {
 .grid-controls .grid-btn {
   padding: 8px 16px;
   margin: 0 5px;
-  background-color: #ffbb00;
+  background-color: #20b1eb;
   border: none;
   border-radius: 4px;
-  color: #000000;
+  color: #ffffff;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .grid-controls .grid-btn:hover {
-  background-color: #e0a700;
+  background-color: #20b1eb;
 }
 
 /* Style untuk grid view */
@@ -1777,7 +1767,7 @@ footer {
 .contactTittle h2 {
   font-size: 2rem;
   margin: 0;
-  color: #0a5d4f;
+  color: #07073c;
 }
 
 .contactTittle p {
@@ -1792,7 +1782,7 @@ footer {
 }
 
 .judcon span {
-  color: #ffbb00;
+  color: #20b1eb;
 }
 
 /* Contact Info Styles */
@@ -1809,7 +1799,7 @@ footer {
 
 .iconGroup .icon {
   font-size: 1.5rem;
-  color: #0a5d4f;
+  color: #07073c;
   margin-right: 15px;
 }
 
@@ -1829,7 +1819,7 @@ footer {
 }
 
 .socialMedia a {
-  background: rgba(10, 94, 80, 0.884);
+  background: rgba(7, 7, 60, 0.884);
   padding: 10px;
   border-radius: 10px;
   color: #fff;
@@ -1839,7 +1829,7 @@ footer {
 }
 
 .socialMedia a:hover {
-  color: #ffbb00;
+  color: #20b1eb;
 }
 
 /* Form Styles */
@@ -1887,7 +1877,7 @@ footer {
 }
 
 .btn-kirim {
-  background-color: #0a5d4f;
+  background-color: #07073c;
 }
 
 .form-label {
@@ -1899,7 +1889,7 @@ footer {
 }
 
 .btn-kirim:hover {
-  background-color: #004d40;
+  background-color: #07073c;
 }
 
 .btn-loading {
