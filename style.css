@@ -166,6 +166,9 @@ body {
 
 .navbar-brand {
   color: #ffffff;
+  letter-spacing: 0.5px;
+  text-transform: none; /* biar tetap natural, bisa diubah uppercase jika mau */
+  transition: all 0.3s ease;
 }
 
 .navbar-brand:focus {
@@ -173,7 +176,8 @@ body {
 }
 
 .navbar-brand:hover {
-  color: #f1f1f1;
+  color: #20b2ec;
+  letter-spacing: 1px;
 }
 
 .navbar-toggler {
