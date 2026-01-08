@@ -630,7 +630,7 @@ section {
 }
 
 .heading {
-  padding-top: 5px;
+  padding-top: 50px;
   font-size: 40px;
   font-weight: 750;
   margin-bottom: -2rem;
@@ -848,7 +848,7 @@ section {
 /* ========================================================================================================== */
 .education {
   margin-top: -100px;
-  padding-top: 180px; /* Tambahkan padding top agar konten tidak tertutupi */
+  padding-top: 250px; /* Tambahkan padding top agar konten tidak tertutupi */
 }
 
 .education h1 {
@@ -862,11 +862,14 @@ section {
 .custom-hr {
   border: none;
   height: 7px;
-  background: #20b1eb; /* Ubah warna sesuai keinginan */
-  opacity: 1; /* Pastikan opacity diatur ke 1 untuk warna yang padat */
+  background: #20b1eb;
+  /*Ubahwarnasesuaikeinginan*/
+  opacity: 1;
+  /*Pastikanopacitydiaturke1untukwarnayangpadat*/
   margin: 55px;
+  border-radius: 10px;
   margin-bottom: -50px;
-  margin-top: 50px; /* Sesuaikan margin sesuai keinginan */
+  margin-top: 50px;
 }
 
 .timeline {
@@ -956,8 +959,14 @@ section {
   top: 0;
   left: 50%;
   margin-left: -3px;
+  border-radius: 10px;
   z-index: -1;
+  margin-top: -2px;
   animation: moveline 6s linear forwards;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 @keyframes moveline {
@@ -1103,8 +1112,8 @@ section {
     text-align: center;
     font-size: 1.5em; /* Menyesuaikan ukuran font */
     margin: 30px; /* Mengurangi margin */
-    margin-top: -50px; /* Menyesuaikan margin atas */
-    margin-bottom: -30px; /* Menyesuaikan margin bawah */
+    margin-top: -130px; /* Menyesuaikan margin atas */
+    margin-bottom: 10px; /* Menyesuaikan margin bawah */
   }
 
   .custom-hr {
@@ -1408,7 +1417,7 @@ label:hover {
 #projects h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 .filter-controls {
@@ -1795,7 +1804,6 @@ footer {
 /* General Section Styles */
 #contact {
   background-color: #f4f4f4;
-
   position: relative;
 }
 
@@ -1847,6 +1855,7 @@ footer {
 }
 
 .judcon {
+  margin-top: 50px;
   font-size: 40px;
   text-align: center;
   font-family: "Poppins", sans-serif;
