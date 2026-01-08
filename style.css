@@ -852,24 +852,16 @@ section {
 }
 
 .education h1 {
-  text-align: left;
-  font-size: 2em;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 750;
   margin: 55px;
   margin-top: -100px;
-  margin-bottom: -50px;
+  margin-bottom: 20px;
 }
 
-.custom-hr {
-  border: none;
-  height: 7px;
-  background: #20b1eb;
-  /*Ubahwarnasesuaikeinginan*/
-  opacity: 1;
-  /*Pastikanopacitydiaturke1untukwarnayangpadat*/
-  margin: 55px;
-  border-radius: 10px;
-  margin-bottom: -50px;
-  margin-top: 50px;
+.edu-jud span {
+  color: #20b1eb;
 }
 
 .timeline {
@@ -955,14 +947,20 @@ section {
   position: absolute;
   width: 6px;
   height: 100%;
-  background: #20b1eb;
   top: 0;
   left: 50%;
   margin-left: -3px;
   border-radius: 10px;
   z-index: -1;
   margin-top: -2px;
+
+  /* Warna biru neon soft */
+  background: #0ea6ff; /* biru neon agak lembut */
+  box-shadow: 0 0 10px rgba(14, 166, 255, 0.6); /* glow halus */
+
   animation: moveline 6s linear forwards;
+
+  /* vendor prefix, optional */
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
