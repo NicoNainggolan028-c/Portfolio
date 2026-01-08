@@ -16,6 +16,11 @@ body {
   overflow-x: hidden;
 }
 
+body.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
 /* ============================================= Hero Section ================================================= */
 /* ========================================================================================================== */
 .hero-section {
@@ -423,27 +428,34 @@ body {
 }
 
 /* Typing text */
-#typing-text {
+.typing-wrapper {
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
   font-size: 42px;
-  display: inline-block;
-  overflow: hidden;
+  font-weight: 600;
+}
+
+#typing-text {
+  white-space: nowrap;
 }
 
 .cursor {
-  border-right: 1px solid;
-  animation: blink-caret 0.75s step-end infinite;
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  background-color: #000;
+  margin-left: 4px;
+  animation: blink 1s infinite;
 }
 
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
+@keyframes blink {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
   }
-  50% {
-    border-color: black;
+  25%,
+  75% {
+    opacity: 0;
   }
 }
 
@@ -1712,6 +1724,8 @@ footer {
   }
 
   .footer-bottom p {
+    text-align: center;
+    margin-left: 22px;
     font-size: 10px;
   }
 }

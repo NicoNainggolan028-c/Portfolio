@@ -152,7 +152,7 @@
             data-aos-delay="3000"
           >
             <div class="typing-wrapper">
-              <span id="typing-text"></span><span class="cursor">&nbsp;</span>
+              <span id="typing-text"></span><span class="cursor"></span>
             </div>
           </h1>
           <p
@@ -165,7 +165,7 @@
           </p>
 
           <a
-            href="https://wa.me/6283147417518?text=Halo,%20Terima%20Kasih%20Telah%20Mengunjungi%20Web%20Saya."
+            href="https://wa.me/6283867005939?text=Halo,%20Terima%20Kasih%20Telah%20Mengunjungi%20Web%20Saya."
             class="btn btn-contact"
             target="_blank"
           >
@@ -188,19 +188,19 @@
 
           <div class="social-icons">
             <a
-              href="https://www.instagram.com/nic_nggln/"
+              href="https://www.instagram.com/sty_nggln/"
               target="_blank"
               class="hvr-grow"
               ><i class="bi bi-instagram"></i
             ></a>
             <a
-              href="https://www.linkedin.com/in/chelonx-company-485359292/"
+              href="https://www.linkedin.com/in/nico-stypanus-aa62a1320/"
               target="_blank"
               class="hvr-grow"
               ><i class="bi bi-linkedin"></i
             ></a>
             <a
-              href="https://www.facebook.com/r.bronson.5?locale=id_ID"
+              href="https://web.facebook.com/r.bronson.5?locale=id_ID"
               target="_blank"
               class="hvr-grow"
               ><i class="bi bi-facebook"></i
@@ -1040,7 +1040,7 @@
         </ul>
       </div>
       <div class="footer-bottom">
-        <p>copyright &copy;2024. Designed by <span>Nico Nainggolan</span></p>
+        <p>copyright &copy;2026. Designed by <span>Nico Nainggolan</span></p>
       </div>
     </footer>
 
@@ -1156,29 +1156,50 @@
 
     <!--================================================ Typing text  ===========================================-->
     <script>
-      document.addEventListener("DOMContentLoaded", (event) => {
-        const texts = ["Hay Semuanya", "Nama saya", "Nico Stypanus Nainggolan"];
-        let count = 0;
-        let index = 0;
-        let currentText = "";
-        let letter = "";
+      document.addEventListener("DOMContentLoaded", () => {
+        const texts = ["Hai Semuanya", "Nama saya", "Nico Stypanus Nainggolan"];
 
-        (function type() {
-          if (count === texts.length) {
-            count = 0;
+        const typingText = document.getElementById("typing-text");
+
+        let textIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+
+        function formatText(text) {
+          // cek mobile
+          if (window.innerWidth <= 576 && text === "Nico Stypanus Nainggolan") {
+            return text.replace("Nainggolan", "<br>Nainggolan");
           }
-          currentText = texts[count];
-          letter = currentText.slice(0, ++index);
+          return text;
+        }
 
-          document.getElementById("typing-text").textContent = letter;
-          if (letter.length === currentText.length) {
-            count++;
-            index = 0;
-            setTimeout(type, 2000); // wait 2 seconds before starting next word
+        function typeEffect() {
+          let rawText = texts[textIndex];
+          let formattedText = formatText(rawText);
+
+          if (!isDeleting) {
+            charIndex++;
           } else {
-            setTimeout(type, 200); // typing speed
+            charIndex--;
           }
-        })();
+
+          typingText.innerHTML = formattedText.substring(0, charIndex);
+
+          let speed = isDeleting ? 60 : 100;
+
+          if (!isDeleting && charIndex === formattedText.length) {
+            speed = 1500;
+            isDeleting = true;
+          } else if (isDeleting && charIndex === 0) {
+            isDeleting = false;
+            textIndex = (textIndex + 1) % texts.length;
+            speed = 500;
+          }
+
+          setTimeout(typeEffect, speed);
+        }
+
+        typeEffect();
       });
     </script>
 
@@ -1209,8 +1230,26 @@
       };
     </script>
     <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // Kunci scroll saat hero muncul
+        document.body.classList.add("no-scroll");
+        window.scrollTo(0, 0); // pastikan di paling atas
+      });
+
       function scrollUp() {
-        document.getElementById("hero-section").classList.add("hidden");
+        const hero = document.getElementById("hero-section");
+
+        // Geser hero ke atas
+        hero.classList.add("hidden");
+
+        // Aktifkan kembali scroll
+        document.body.classList.remove("no-scroll");
+
+        // Pastikan halaman kembali ke atas
+        window.scrollTo({
+          top: 0,
+          behavior: "instant", // atau "smooth" kalau mau
+        });
       }
     </script>
 
