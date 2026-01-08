@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kamu Offline 😴</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: Poppins, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(135deg, #07073c, #0d0d6b);
+        color: white;
+        text-align: center;
+      }
+      .box {
+        max-width: 400px;
+      }
+      h1 {
+        font-size: 2.5rem;
+      }
+      p {
+        opacity: 0.8;
+      }
+      .emoji {
+        font-size: 4rem;
+        animation: bounce 1.5s infinite;
+      }
+      @keyframes bounce {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="emoji">📡❌</div>
+      <h1>Koneksi Hilang</h1>
+      <p>
+        Tenang... internet boleh putus,<br />
+        semangat jangan 😎
+      </p>
+      <p>Cek koneksi kamu lalu refresh ya!</p>
+    </div>
+  </body>
+</html>
